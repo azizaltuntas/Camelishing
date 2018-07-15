@@ -1,0 +1,7 @@
+PyQt5==5.11.2
+PyInstaller==3.3.1
+XlsxWriter==1.0.5
+matplotlib==2.2.2
+openpyxl==2.5.4
+paramiko==2.4.1
+pywin32==223
