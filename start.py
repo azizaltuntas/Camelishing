@@ -1,3 +1,6 @@
+#Project Creator Abdulaziz ALTUNTAŞ
+#No Version
+
 from PyQt5.QtWidgets import QApplication , QMainWindow ,QFileDialog , QListWidget,QListWidgetItem ,QTreeWidgetItem ,QMessageBox,QLineEdit,QGraphicsPixmapItem
 from PyQt5.QtGui import QPixmap
 import sys,random
