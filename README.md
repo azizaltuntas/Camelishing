@@ -2,7 +2,7 @@
  Social Engineering Tool
 # Camelishing Social Engineering Tool
 
-![N|Solid](https://img.shields.io/pypi/pyversions/Django.svg) 
+# Python 3x
 ![N|Solid](https://camo.githubusercontent.com/3b6539ac63635dcdd5579173803e560aadb0c094/68747470733a2f2f6261646765732e66726170736f66742e636f6d2f6f732f6d69742f6d69742e706e673f763d313033)
 
 ```sh
