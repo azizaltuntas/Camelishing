@@ -52,7 +52,7 @@ class Server(threading.Thread):
 
         c.close()
 
-host = "172.16.199.10"
+host = NONE
 port = 4444
 
 _ = []
