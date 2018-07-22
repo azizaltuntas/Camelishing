@@ -46,7 +46,7 @@ $ Install Microsoft Office
 ### Mail Sender
 
 ```sh
-[+]Note :  Compress and send the exe file(rar,zip)
+[+] Note :  Compress and send the exe file(rar,zip)
 
 [+] Start Project : python start.py
 ```
