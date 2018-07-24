@@ -5,6 +5,13 @@
 # Python 3x
 ![N|Solid](https://camo.githubusercontent.com/3b6539ac63635dcdd5579173803e560aadb0c094/68747470733a2f2f6261646765732e66726170736f66742e636f6d2f6f732f6d69742f6d69742e706e673f763d313033)
 
+
+
+
+
+
+
+## Contact
 ```sh
 [!]CONTACT[!]
 | Coded Abdulaziz ALTUNTAŞ |
@@ -33,6 +40,25 @@
 $ pip install -r requirements.txt
 $ Install Microsoft Office
 ```
+### If Installation Failed please try to
+```sh
+Install Python 3.6 & Pip3 (Just install Python 3.6 Pip already comes with it!)
+Use pip3 to install the requirments 
+-------------------------
+$ pip3 install -r requirments.txt 
+```
+
+### If you get Error to create Macro
+```sh
+Please follow the steps below! 
+```
+![N|Solid](https://github.com/cryptonic01/Camelishing/blob/master/img/STEP1.png)
+![N|Solid](https://github.com/cryptonic01/Camelishing/blob/master/img/STEP2.png)
+![N|Solid](https://github.com/cryptonic01/Camelishing/blob/master/img/STEP3.png)
+![N|Solid](https://github.com/cryptonic01/Camelishing/blob/master/img/STEP4.png)
+![N|Solid](https://github.com/cryptonic01/Camelishing/blob/master/img/STEP5.png)
+
+
 
 #### Tested and Supported
 
